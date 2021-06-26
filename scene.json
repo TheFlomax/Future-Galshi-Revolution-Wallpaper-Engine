@@ -1,0 +1,183 @@
+{
+	"camera" : 
+	{
+		"center" : "0.00000 0.00000 -1.00000",
+		"eye" : "0.00000 0.00000 0.00000",
+		"up" : "0.00000 1.00000 0.00000"
+	},
+	"general" : 
+	{
+		"ambientcolor" : "0.25490 0.10196 0.14510",
+		"bloom" : false,
+		"bloomhdrfeather" : 0.10000000149011612,
+		"bloomhdriterations" : 8,
+		"bloomhdrscatter" : 1.6189999580383301,
+		"bloomhdrstrength" : 2.0,
+		"bloomhdrthreshold" : 1.0,
+		"bloomstrength" : 2.0,
+		"bloomthreshold" : 0.64999997615814209,
+		"camerafade" : true,
+		"cameraparallax" : false,
+		"cameraparallaxamount" : 0.5,
+		"cameraparallaxdelay" : 0.10000000149011612,
+		"cameraparallaxmouseinfluence" : 0.5,
+		"camerapreview" : true,
+		"camerashake" : false,
+		"camerashakeamplitude" : 0.5,
+		"camerashakeroughness" : 1.0,
+		"camerashakespeed" : 3.0,
+		"clearcolor" : "0.62745 0.21176 0.27059",
+		"clearenabled" : true,
+		"farz" : 10000.0,
+		"fov" : 50.0,
+		"hdr" : true,
+		"nearz" : 0.0099999997764825821,
+		"orthogonalprojection" : 
+		{
+			"height" : 3248,
+			"width" : 5760
+		},
+		"skylightcolor" : "0.30000 0.30000 0.30000",
+		"zoom" : 1.0
+	},
+	"objects" : 
+	[
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 14,
+			"image" : "models/galshiij-ba.json",
+			"ledsource" : false,
+			"locktransforms" : true,
+			"name" : "galshiij-ba",
+			"origin" : "2880.00000 1624.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "5760.00000 3248.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/foliagesway/effect.json",
+					"id" : 77,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"MODE" : 0
+							},
+							"constantshadervalues" : 
+							{
+								"phase" : 0.19,
+								"power" : 0.78000000000000003,
+								"ratio" : 0.63,
+								"scale" : 0.55000000000000004,
+								"scrolldirection" : 1.8123620338902224,
+								"speeduv" : 4.4900000000000002,
+								"strength" : 0.38
+							},
+							"id" : 78,
+							"textures" : [ null, "masks/foliagesway_mask_5e4c02ff", "util/noise" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 20,
+			"image" : "models/galshiij-a.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "galshiij-a",
+			"origin" : "2880.00000 1624.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "5760.00000 3248.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 28,
+			"locktransforms" : false,
+			"maxtime" : 5.0,
+			"mintime" : 1.0,
+			"muteineditor" : true,
+			"name" : "Galshi Revolution - Futur (No Copyright Music)-_fnUXvk9vJg.wav",
+			"origin" : "0.00000 0.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"playbackmode" : "loop",
+			"scale" : "1.00000 1.00000 1.00000",
+			"sound" : 
+			[
+				"sounds/Galshi Revolution - Futur (No Copyright Music)-_fnUXvk9vJg.wav"
+			],
+			"startsilent" : false,
+			"volume" : 0.5
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 72,
+			"instanceoverride" : 
+			{
+				"count" : 1.0399999618530273,
+				"id" : 74,
+				"lifetime" : 1.0099999904632568,
+				"rate" : 1.3200000524520874,
+				"size" : 2.4800000190734863,
+				"speed" : 1.9099999666213989
+			},
+			"locktransforms" : true,
+			"name" : "Sparks cursor2",
+			"origin" : "2874.81152 1644.49255 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/workshop/2446158253/Sparks_cursor2_copy1.json",
+			"scale" : "1.00000 1.00000 1.00000",
+			"visible" : false
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 82,
+			"instanceoverride" : 
+			{
+				"colorn" : "1.00000 1.00000 1.00000",
+				"count" : 1.1100000143051147,
+				"id" : 31,
+				"lifetime" : 0.92000001668930054,
+				"rate" : 
+				{
+					"script" : "'use strict';\nexport let __workshopId = '2111504995';\n\n/**\n * Configure these to control smoothing and the frequency.\n */\nlet frequencyResolution = 16; // Must be 16, 32 or 64 per channel.\nlet sourceFrequency = 0; // Must be smaller than frequencyResolution. Lower values for bass, higher for treble.\nlet smoothingRate = 16;\nlet minimumValue = 0.5;\nlet maximumValue = 3;\n\n/**\n * This creates a permanent link to the audio response data.\n */\nlet audioBuffer = engine.registerAudioBuffers(frequencyResolution);\nvar smoothValue = 0;\nvar initialValue;\nconst valueDelta = maximumValue - minimumValue;\n\n/**\n */\nexport function update() {\n\tlet audioDelta = audioBuffer.average[sourceFrequency] - smoothValue;\n\t\n\tsmoothValue += audioDelta * engine.frametime * smoothingRate;\n\tsmoothValue = Math.min(1.0, smoothValue);\n\n\treturn initialValue * (smoothValue * valueDelta + minimumValue);\n}\n\n/**\n */\nexport function init(value) {\n\tinitialValue = value;\n}\n\n",
+					"value" : 1.2599999904632568
+				},
+				"size" : 1.0199999809265137,
+				"speed" : 1.0399999618530273
+			},
+			"locktransforms" : false,
+			"name" : "Perspective  (runscript)",
+			"origin" : "2874.81152 1644.49255 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/workshop/2111504995/presets/snowperspective.json",
+			"scale" : "1.00000 1.00000 1.00000",
+			"visible" : true
+		}
+	],
+	"version" : 1
+}

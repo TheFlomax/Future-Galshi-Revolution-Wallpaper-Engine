@@ -1,0 +1,113 @@
+{
+	"animationmode" : "randomframe",
+	"children" : null,
+	"controlpoint" : 
+	[
+		{
+			"flags" : 1,
+			"id" : 0,
+			"offset" : "0 0 0"
+		},
+		{
+			"flags" : 0,
+			"id" : 1,
+			"offset" : "0 0 0"
+		},
+		{
+			"flags" : 0,
+			"id" : 2,
+			"offset" : "0 0 0"
+		},
+		{
+			"flags" : 0,
+			"id" : 3,
+			"offset" : "0 0 0"
+		},
+		{
+			"flags" : 0,
+			"id" : 4,
+			"offset" : "0 0 0"
+		},
+		{
+			"flags" : 0,
+			"id" : 5,
+			"offset" : "0 0 0"
+		},
+		{
+			"flags" : 0,
+			"id" : 6,
+			"offset" : "0 0 0"
+		},
+		{
+			"flags" : 0,
+			"id" : 7,
+			"offset" : "0 0 0"
+		}
+	],
+	"emitter" : 
+	[
+		{
+			"directions" : "1 1 0",
+			"distancemax" : 10,
+			"distancemin" : 0,
+			"id" : 5,
+			"name" : "sphererandom",
+			"origin" : "0 0 0",
+			"rate" : 20
+		}
+	],
+	"flags" : null,
+	"initializer" : 
+	[
+		{
+			"id" : 2,
+			"max" : 5,
+			"min" : 3,
+			"name" : "lifetimerandom"
+		},
+		{
+			"id" : 3,
+			"max" : 50,
+			"min" : 10,
+			"name" : "sizerandom"
+		},
+		{
+			"id" : 4,
+			"max" : "10 -70 0",
+			"min" : "-10 -20 0",
+			"name" : "velocityrandom"
+		}
+	],
+	"material" : "materials/workshop/2446158253/particle/halo_5_2.json",
+	"maxcount" : 100,
+	"operator" : 
+	[
+		{
+			"drag" : 0.01,
+			"gravity" : "0 -9 0",
+			"id" : 6,
+			"name" : "movement"
+		},
+		{
+			"fadeintime" : 0.29999999999999999,
+			"fadeouttime" : 0.5,
+			"id" : 7,
+			"name" : "alphafade"
+		},
+		{
+			"drag" : 0.050000000000000003,
+			"force" : "0 0 6.28319",
+			"id" : 8,
+			"name" : "angularmovement"
+		}
+	],
+	"renderer" : 
+	[
+		{
+			"id" : 1,
+			"name" : "sprite"
+		}
+	],
+	"sequencemultiplier" : null,
+	"starttime" : 0
+}

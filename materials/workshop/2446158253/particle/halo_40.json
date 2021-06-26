@@ -1,0 +1,25 @@
+{
+	"passes" : 
+	[
+		{
+			"blending" : "translucent",
+			"combos" : 
+			{
+				"REFRACT" : 1
+			},
+			"constantshadervalues" : 
+			{
+				"ui_editor_properties_refract_amount" : 0.5
+			},
+			"cullmode" : "nocull",
+			"depthtest" : "disabled",
+			"depthwrite" : "disabled",
+			"shader" : "genericparticle",
+			"textures" : 
+			[
+				"workshop/2446158253/particle/glass_201x201_39",
+				"workshop/2446158253/particle/glass_201x201_39"
+			]
+		}
+	]
+}

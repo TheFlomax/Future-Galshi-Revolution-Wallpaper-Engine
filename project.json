@@ -1,0 +1,27 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "",
+	"file" : "scene.json",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0.4588235294117647 0.11764705882352941 0.2"
+			}
+		},
+		"supportsaudioprocessing" : true
+	},
+	"preview" : "preview.jpg",
+	"tags" : [ "Music" ],
+	"title" : "Future Galshi Révolution",
+	"type" : "scene",
+	"version" : 1,
+	"visibility" : "unlisted",
+	"workshopid" : "2528260284",
+	"workshopurl" : "steam://url/CommunityFilePage/2528260284"
+}
